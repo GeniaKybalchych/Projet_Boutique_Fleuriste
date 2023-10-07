@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TP-A10-Fleuriste:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8bb868cd-06c9-458d-ad56-e29190ab7e2d" name="Changes" comment="Fixed header on various page">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/filter-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/filterSVG.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/tpa10bookstore/controleur/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/tpa10bookstore/controleur/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filtre/FiltreCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/tpa10bookstore/filtre/FiltreCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filtre/FiltreLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/tpa10bookstore/filtre/FiltreLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/catalogue.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/catalogue.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/confirmationCheckout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/confirmationCheckout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/enConstruction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/enConstruction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/assets/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/assets/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/assets/css/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/assets/css/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/assets/css/catalogue.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/assets/css/catalogue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/profil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/profil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/CatalogScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/CatalogScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/HeaderScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/HeaderScript.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1.0_Stable" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="86b517bd-0282-432e-96be-926be2380732" />
+        <option name="url" value="https://github.com/Moti-Velz/TP-A10-BookStore.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2QeyghatzaIMgDuXnbsyfQpEFrL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Askeladd/Desktop/School/Session 3/WebDev/TP-A10-BookStore/src/main/webapp/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.book.tpa10bookstore.modele" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Askeladd\Desktop\School\Session 3\WebDev\TP-A10-BookStore\src\main\webapp\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Askeladd\Desktop\School\Session 3\WebDev\TP-A10-BookStore\src\main\webapp\images" />
+      <recent name="C:\Users\Askeladd\Desktop\School\Session 3\WebDev\TP-A10-BookStore\src\main\webapp" />
+      <recent name="C:\Users\Askeladd\Desktop\School\Session 3\WebDev\TP-A10-BookStore\src\main\webapp\assets" />
+      <recent name="C:\Users\Askeladd\Desktop\School\Session 3\WebDev\TP-A10-BookStore\src\main\resources" />
+      <recent name="C:\Users\Askeladd\Desktop\School\Session 3\WebDev\TP-A10-BookStore\src\main\java\com\book\tpa10bookstore\modele" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="openRunningConfigInTab" value="true" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.73">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.book.tpa10bookstore.controleur.Main" />
+      <module name="TP-A10-Fleuriste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.book.tpa10bookstore.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="TP-A10-Fleuriste:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="91328a0a-3ddf-43c8-8090-154e69c238c2" />
+        <option name="HTTP_PORT" value="8070" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65283" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="TP-A10-Fleuriste:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="catalogue.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/catalogue.jsp" />
+      <deployment>
+        <artifact name="TP-A10-Fleuriste:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/TP_A10_Fleuriste_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="dfb5e1de-f9fb-4a1d-83dd-4056c071aa35" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="TP-A10-Fleuriste:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.73" />
+      <item itemvalue="Tomcat Server.catalogue.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Tomcat Server.catalogue.jsp" />
+        <item itemvalue="Tomcat Server.catalogue.jsp" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Tomcat Server.catalogue.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bb868cd-06c9-458d-ad56-e29190ab7e2d" name="Changes" comment="" />
+      <created>1685728455574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685728455574</updated>
+      <workItem from="1685728457630" duration="3637000" />
+      <workItem from="1685803859941" duration="1325000" />
+      <workItem from="1685805495394" duration="138000" />
+      <workItem from="1685987069676" duration="9374000" />
+      <workItem from="1685998820261" duration="433000" />
+      <workItem from="1686066247876" duration="4635000" />
+      <workItem from="1686072123458" duration="10337000" />
+      <workItem from="1686230561120" duration="9054000" />
+      <workItem from="1686250071597" duration="953000" />
+      <workItem from="1686254649086" duration="20000" />
+      <workItem from="1686318041398" duration="6487000" />
+      <workItem from="1686325346621" duration="248000" />
+      <workItem from="1686330181262" duration="936000" />
+      <workItem from="1686499643476" duration="462000" />
+      <workItem from="1686505813686" duration="87000" />
+      <workItem from="1686525231734" duration="3975000" />
+      <workItem from="1686535028198" duration="1375000" />
+      <workItem from="1686575111855" duration="18670000" />
+      <workItem from="1686598356864" duration="850000" />
+      <workItem from="1686599299763" duration="9894000" />
+      <workItem from="1686615764281" duration="7409000" />
+      <workItem from="1687116350372" duration="229000" />
+      <workItem from="1687177750763" duration="55000" />
+      <workItem from="1687178081897" duration="165000" />
+      <workItem from="1687221008872" duration="813000" />
+      <workItem from="1687286441604" duration="619000" />
+      <workItem from="1687293610649" duration="686000" />
+      <workItem from="1687305166874" duration="14000" />
+      <workItem from="1687379553334" duration="6105000" />
+      <workItem from="1688142240475" duration="10785000" />
+      <workItem from="1688177255201" duration="364000" />
+      <workItem from="1688240252650" duration="202000" />
+      <workItem from="1688240585614" duration="4797000" />
+    </task>
+    <task id="LOCAL-00001" summary="Mise en place des modele">
+      <created>1685804512416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685804512416</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Config">
+      <created>1685804533182</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685804533182</updated>
+    </task>
+    <task id="LOCAL-00003" summary="POC">
+      <created>1685804556013</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685804556013</updated>
+    </task>
+    <task id="LOCAL-00004" summary="config">
+      <created>1685805623870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685805623871</updated>
+    </task>
+    <task id="LOCAL-00005" summary="config">
+      <created>1685987123447</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685987123447</updated>
+    </task>
+    <task id="LOCAL-00006" summary="comment">
+      <created>1686250334453</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686250334453</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Jackson Dependency">
+      <created>1686320807380</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686320807381</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Filtre Price Range">
+      <created>1686321985626</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686321985626</updated>
+    </task>
+    <task id="LOCAL-00009" summary="username et password sur client">
+      <created>1686325396381</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686325396381</updated>
+    </task>
+    <task id="LOCAL-00010" summary=".">
+      <created>1686499902106</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686499902106</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Mise en place update et des filtres: Prix, taille, Difficulté, occasion, categorie">
+      <created>1686531128823</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686531128823</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ajustements des DAO">
+      <created>1686585404824</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686585404824</updated>
+    </task>
+    <task id="LOCAL-00013" summary="changement su entity Article">
+      <created>1686591392987</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686591392987</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Mise en place ServletMagasin">
+      <created>1686591411912</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686591411912</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Mise en place ServletMagasin">
+      <created>1686591453384</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686591453384</updated>
+    </task>
+    <task id="LOCAL-00016" summary="plein de chose">
+      <created>1686594283267</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686594283268</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Non fonctionnel, probleme de port">
+      <created>1686598311962</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686598311962</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Transformation index.html en jsp - Images non fonctionelles">
+      <created>1686607894480</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686607894481</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Suppression de la dist bootstrap">
+      <created>1686609125358</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686609125358</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Suppression de la dist bootstrap, on peut utiliser le cdn">
+      <created>1686609207137</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686609207137</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Port du landing page html -&gt; JSP,&#10;Changements de la structure">
+      <created>1686618142670</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1686618142670</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Refactoring les ressources sont maintenant chargée lors du déploiement, Il y a un probleme de configuration au niveau du path. Le path fonctionnel est ./Images">
+      <created>1688096613250</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1688096613250</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Clean up header, Mise en place validation login, attribut de session connected et scripts fonctionnels">
+      <created>1688151452873</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1688151452873</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Traduction en francais des articles Modification des scripts d'insertion et du javascript de filtrage">
+      <created>1688153840774</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1688153840774</updated>
+    </task>
+    <task id="LOCAL-00025" summary="delete page de login superflue">
+      <created>1688242513041</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1688242513041</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Fixed le header.jsp">
+      <created>1688247073461</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1688247073461</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fixed le header">
+      <created>1688247370754</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1688247370754</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fixed header on various page">
+      <created>1688247675845</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1688247675845</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/detached" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Config" />
+    <MESSAGE value="POC" />
+    <MESSAGE value="config" />
+    <MESSAGE value="comment" />
+    <MESSAGE value="Jackson Dependency" />
+    <MESSAGE value="Filtre Price Range" />
+    <MESSAGE value="username et password sur client" />
+    <MESSAGE value="." />
+    <MESSAGE value="Mise en place update et des filtres: Prix, taille, Difficulté, occasion, categorie" />
+    <MESSAGE value="Ajustements des DAO" />
+    <MESSAGE value="changement su entity Article" />
+    <MESSAGE value="Mise en place ServletMagasin" />
+    <MESSAGE value="plein de chose" />
+    <MESSAGE value="Non fonctionnel, probleme de port" />
+    <MESSAGE value="Transformation index.html en jsp - Images non fonctionelles" />
+    <MESSAGE value="Suppression de la dist bootstrap" />
+    <MESSAGE value="Suppression de la dist bootstrap, on peut utiliser le cdn" />
+    <MESSAGE value="Port du landing page html -&gt; JSP,&#10;Changements de la structure" />
+    <MESSAGE value="Refactoring les ressources sont maintenant chargée lors du déploiement, Il y a un probleme de configuration au niveau du path. Le path fonctionnel est ./Images" />
+    <MESSAGE value="Clean up header, Mise en place validation login, attribut de session connected et scripts fonctionnels" />
+    <MESSAGE value="Traduction en francais des articles Modification des scripts d'insertion et du javascript de filtrage" />
+    <MESSAGE value="delete page de login superflue" />
+    <MESSAGE value="Fixed le header.jsp" />
+    <MESSAGE value="Fixed le header" />
+    <MESSAGE value="Fixed header on various page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed header on various page" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/book/tpa10bookstore/controleur/LoginServlet.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TP_A10_BookStore$Tomcat_9_0_73.ic" NAME="Tomcat 9.0.73 Coverage Results" MODIFIED="1686066502377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

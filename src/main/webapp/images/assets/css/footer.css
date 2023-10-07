@@ -1,0 +1,37 @@
+
+.titreH3 {
+
+    color:#709775;
+    font-size: 18px;
+}
+
+.listUl {
+
+    list-style: none;
+    padding: 0;
+}
+
+.elementLi {
+
+    margin-bottom: 5px;
+}
+
+.Lien {
+
+    color: #666;
+    text-decoration: none;
+}
+
+.discret {
+    /* Style pour les paragraphes dans le pied de page */
+    color: #888;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.positionFooter {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}

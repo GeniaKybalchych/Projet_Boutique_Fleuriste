@@ -1,0 +1,11 @@
+.navbar-nav .nav-icon a {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-icon a:hover {
+    color: #709775;
+}
+
+.couleur-font{
+    color: lightgray;
+}

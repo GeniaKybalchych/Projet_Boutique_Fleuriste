@@ -1,0 +1,48 @@
+body {
+    height: 100%;
+    background-image: url("/Images/checkout/Backgroung_formulaire_checkout_07.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.btn-outline-success {
+    background-color: #638768;
+    border-color: #638768;
+    color: white;
+}
+
+.btn-outline-success:hover {
+    background-color: #638768;
+    border-color: #638768;
+}
+
+.btn-outline-success:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 0.25rem rgba(112, 151, 117, 0.5);
+}
+
+.btn-outline-success.disabled,
+.btn-outline-successy:disabled {
+    background-color: #709775;
+    border-color: #709775;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active,
+.btn-outline-success:not(:disabled):not(.disabled).active,
+.show > .btn-outline-success.dropdown-toggle {
+    background-color: #638768;
+    border-color: #638768;
+}
+
+.lien {
+    color: white;
+    text-decoration: none;
+}
+
+
+.lien:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,94 @@
+
+html,
+body {
+    height: 100%;
+    background-image: url("/Images/Authentification/Backgroung_authentification.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.filter-button {
+    position: fixed; /* Fixed at the same place */
+    bottom: 20px; /* 20px from the bottom */
+    right: 20px; /* 20px from the right */
+    z-index: 100; /* On top of other elements */
+    height: 10vw;
+    width: 10vw;
+    max-height: 85px;
+    max-width: 85px;
+    border-radius: 50%; /* Makes the button round */
+    border: none;
+    background: linear-gradient(to right, #44ad36, #21e900);
+    transition: all 0.5s;
+}
+.filter-button:hover {
+    background-position: 100% 0;
+}
+.filter-button img {
+    transition: all 1s;
+    filter: invert(1);
+}
+
+.filter-button:hover img {
+    filter: invert(0.3);
+}
+
+.product-container {
+    /* Your product container styles */
+}
+
+/* Styles for the floating filter button */
+.filter-button-floating {
+    display: none; /* Initially hidden */
+    position: fixed; /* Fixed at the same place */
+    bottom: 20px; /* 20px from the bottom */
+    right: 20px; /* 20px from the right */
+    z-index: 100; /* On top of other elements */
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%; /* Makes the button round */
+    border: none;
+    background: linear-gradient(to right, #44ad36, #2ec319);
+
+}
+.filter-button-floating img {
+    transition: all 1s;
+    filter: invert(1);
+
+}
+
+.filter-button-floating:hover img {
+    filter: invert(0.3);
+}
+
+
+.btn-custom {
+    background: linear-gradient(to right, #44ad36, #2ec319);
+    background-size: 200% auto;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    font-size: 16px;
+}
+
+.btn-custom:hover {
+    background-position: right center; /* change the direction of gradient */
+}
+
+/* Media query for narrower screens */
+@media (max-width: 768px) {
+    .filter-button {
+        display: none; /* Hide the regular filter button */
+    }
+
+    .filter-button-floating {
+        display: inline-block; /* Show the floating filter button */
+    }
+}
+.badge {
+    white-space: normal;
+}

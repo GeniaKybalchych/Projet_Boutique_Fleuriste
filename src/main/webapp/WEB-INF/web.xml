@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+<!--    <filter>-->
+<!--        <filter-name>FiltreBase</filter-name>-->
+<!--        <filter-class>filtre.FiltreBase</filter-class>-->
+<!--    </filter>-->
+<!--    <filter-mapping>-->
+<!--        <filter-name>FiltreBase</filter-name>-->
+<!--        <url-pattern>/*</url-pattern>-->
+<!--    </filter-mapping>-->
+    <filter>
+        <filter-name>FiltreLogin</filter-name>
+        <filter-class>com.book.tpa10bookstore.filtre.FiltreLogin</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>FiltreLogin</filter-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>FiltreCreation</filter-name>
+        <filter-class>com.book.tpa10bookstore.filtre.FiltreCreation</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>FiltreCreation</filter-name>
+        <url-pattern>/ClientServlet</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.book.tpa10bookstore.controleur.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ClientServlet</servlet-name>
+        <servlet-class>com.book.tpa10bookstore.controleur.ClientServlet</servlet-class>
+    </servlet>
+
+
+
+    <servlet-mapping>
+        <servlet-name>ClientServlet</servlet-name>
+        <url-pattern>/ClientServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LangueServlet</servlet-name>
+        <servlet-class>com.book.tpa10bookstore.controleur.LangueServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LangueServlet</servlet-name>
+        <url-pattern>/LangueServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.book.tpa10bookstore.controleur.LogoutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MagasinServlet</servlet-name>
+        <servlet-class>com.book.tpa10bookstore.controleur.MagasinServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MagasinServlet</servlet-name>
+        <url-pattern>/MagasinServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckoutServelet</servlet-name>
+        <servlet-class>com.book.tpa10bookstore.controleur.CheckoutServelet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckoutServelet</servlet-name>
+        <url-pattern>/CheckoutServelet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
